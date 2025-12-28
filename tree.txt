@@ -1,0 +1,183 @@
+Folder PATH listing
+Volume serial number is ECD8-F252
+C:.
+|   .classpath
+|   .project
+|   pom.xml
+|   README.md
+|   tree.txt
+|   
++---.mvn
+|       jvm.config
+|       maven.config
+|       
++---.settings
+|       .jsdtscope
+|       org.eclipse.core.resources.prefs
+|       org.eclipse.jdt.core.prefs
+|       org.eclipse.m2e.core.prefs
+|       org.eclipse.wst.common.component
+|       org.eclipse.wst.common.project.facet.core.prefs.xml
+|       org.eclipse.wst.jsdt.ui.superType.container
+|       org.eclipse.wst.jsdt.ui.superType.name
+|       org.eclipse.wst.validation.prefs
+|       
++---bin
+|   |   .project
+|   |   pom.xml
+|   |   
+|   +---.mvn
+|   |       jvm.config
+|   |       maven.config
+|   |       
+|   +---.settings
+|   |       .jsdtscope
+|   |       org.eclipse.core.resources.prefs
+|   |       org.eclipse.jdt.core.prefs
+|   |       org.eclipse.m2e.core.prefs
+|   |       org.eclipse.wst.common.component
+|   |       org.eclipse.wst.common.project.facet.core.prefs.xml
+|   |       org.eclipse.wst.jsdt.ui.superType.container
+|   |       org.eclipse.wst.jsdt.ui.superType.name
+|   |       org.eclipse.wst.validation.prefs
+|   |       
+|   +---src
+|   |   +---main
+|   |   |   +---java
+|   |   |   |   \---com
+|   |   |   |       \---insurance
+|   |   |   |               App.class
+|   |   |   |               ApplicationConfig.class
+|   |   |   |               AppTest.class
+|   |   |   |               CustomerController.class
+|   |   |   |               HelloResource.class
+|   |   |   |               
+|   |   |   +---resources
+|   |   |   \---webapp
+|   |   |       \---WEB-INF
+|   |   |               web.xml
+|   |   |               
+|   |   \---test
+|   |       +---java
+|   |       |   \---com
+|   |       |       \---insurance
+|   |       |               AppTest.class
+|   |       |               
+|   |       \---resources
+|   \---target
+|       |   insurance-rest-api-1.0-SNAPSHOT.war
+|       |   
+|       +---classes
+|       |   +---com
+|       |   |   \---insurance
+|       |   \---META-INF
+|       |       |   MANIFEST.MF
+|       |       |   
+|       |       \---maven
+|       |           \---com.insurance
+|       |               \---insurance-rest-api
+|       |                       pom.properties
+|       |                       pom.xml
+|       |                       
+|       +---generated-sources
+|       |   \---annotations
+|       +---insurance-rest-api-1.0-SNAPSHOT
+|       |   \---WEB-INF
+|       |       \---classes
+|       |           \---com
+|       |               \---insurance
+|       +---m2e-wtp
+|       |   \---web-resources
+|       |       \---META-INF
+|       |           |   MANIFEST.MF
+|       |           |   
+|       |           \---maven
+|       |               \---com.insurance
+|       |                   \---insurance-rest-api
+|       |                           pom.properties
+|       |                           pom.xml
+|       |                           
+|       +---maven-archiver
+|       |       pom.properties
+|       |       
+|       +---maven-status
+|       |   \---maven-compiler-plugin
+|       |       +---compile
+|       |       |   \---default-compile
+|       |       |           createdFiles.lst
+|       |       |           inputFiles.lst
+|       |       |           
+|       |       \---testCompile
+|       |           \---default-testCompile
+|       |                   createdFiles.lst
+|       |                   inputFiles.lst
+|       |                   
+|       +---surefire-reports
+|       |       com.insurance.AppTest.txt
+|       |       TEST-com.insurance.AppTest.xml
+|       |       
+|       \---test-classes
+|           \---com
+|               \---insurance
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---insurance
+|   |   |           |   App.java
+|   |   |           |   HelloResource.java
+|   |   |           |   
+|   |   |           +---config
+|   |   |           |       ApplicationConfig.java
+|   |   |           |       SwaggerConfig.java
+|   |   |           |       
+|   |   |           +---controller
+|   |   |           |       CustomerController.java
+|   |   |           |       
+|   |   |           +---dto
+|   |   |           |       CustomerDTO.java
+|   |   |           |       
+|   |   |           +---model
+|   |   |           |       Customer.java
+|   |   |           |       
+|   |   |           +---repository
+|   |   |           |       CustomerRepository.java
+|   |   |           |       
+|   |   |           \---service
+|   |   |                   CustomerService.java
+|   |   |                   CustomerServiceImpl.java
+|   |   |                   
+|   |   +---resources
+|   |   |       application.properties
+|   |   |       
+|   |   \---webapp
+|   |       \---WEB-INF
+|   |               web.xml
+|   |               
+|   \---test
+|       +---java
+|       |   \---com
+|       |       \---insurance
+|       |           |   AppTest.java
+|       |           |   
+|       |           +---controller
+|       |           |       CustomerControllerTest.java
+|       |           |       
+|       |           \---service
+|       |                   CustomerServiceImplTest.java
+|       |                   
+|       \---resources
+|               .gitignore
+|               
+\---target
+    +---classes
+    +---generated-sources
+    |   \---annotations
+    +---maven-status
+    |   \---maven-compiler-plugin
+    |       \---compile
+    |           \---default-compile
+    |                   createdFiles.lst
+    |                   inputFiles.lst
+    |                   
+    \---test-classes

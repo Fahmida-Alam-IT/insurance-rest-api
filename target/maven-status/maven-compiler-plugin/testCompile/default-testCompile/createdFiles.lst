@@ -1,0 +1,4 @@
+com\insurance\service\CustomerServiceImplTest.class
+com\insurance\controller\ClaimControllerTest.class
+com\insurance\AppTest.class
+com\insurance\controller\CustomerControllerTest.class
